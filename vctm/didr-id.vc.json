@@ -1,0 +1,44 @@
+{
+  "type": [
+    "VerifiableCredential",
+    "DidrIDCred"
+  ],
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://raw.githubusercontent.com/Didr/vctm-didr/vctm/contexts/didr-id/v1"
+  ],
+  "name": "Didr-ID Cred",
+  "description": "A brief description of what this credential represents and its purpose.",
+  "display": {
+    "backgroundColor": "#cc1212",
+    "textColor": "#ffffff"
+  },
+  "credentialSchema": {
+    "type": "JsonSchema",
+    "properties": {
+      "credentialSubject": {
+        "type": "object",
+        "properties": {
+          "permission_tier": {
+            "type": "string",
+            "title": "Permission Tier",
+            "description": "Permission tier, if provided"
+          },
+          "userid": {
+            "type": "string",
+            "title": "User ID",
+            "description": "ID"
+          },
+          "username": {
+            "type": "string",
+            "title": "Claim Label",
+            "description": "Username of the human"
+          }
+        },
+        "required": [
+          "username"
+        ]
+      }
+    }
+  }
+}

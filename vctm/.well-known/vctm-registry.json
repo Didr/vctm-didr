@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "generated": "2026-05-25T12:21:57Z",
+  "repository": {
+    "url": "https://github.com/Didr/vctm-didr",
+    "owner": "Didr",
+    "name": "vctm-didr",
+    "branch": "main",
+    "commit": "0a11604e5bf82cdf35796cdefced4e637d6ec05c"
+  },
+  "credentials": [
+    {
+      "vct": "urn:cust:didr:1",
+      "name": "Didr-ID Cred",
+      "source_file": "didr-id.md",
+      "vctm_file": "didr-id.vctm",
+      "last_modified": "2026-05-25T14:21:12+02:00",
+      "commit_history": [
+        {
+          "sha": "0a11604e5bf82cdf35796cdefced4e637d6ec05c",
+          "message": "Update cred",
+          "author": "Didr",
+          "date": "2026-05-25T14:21:12+02:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "claims": [
+    {
+      "description": "Username of the human",
+      "display": [
+        {
+          "label": "Claim Label",
+          "locale": "en-US"
+        }
+      ],
+      "mandatory": true,
+      "path": [
+        "username"
+      ]
+    },
+    {
+      "description": "Permission tier, if provided",
+      "display": [
+        {
+          "label": "Permission Tier",
+          "locale": "en-US"
+        }
+      ],
+      "path": [
+        "permission_tier"
+      ]
+    },
+    {
+      "description": "ID",
+      "display": [
+        {
+          "label": "User ID",
+          "locale": "en-US"
+        }
+      ],
+      "path": [
+        "userid"
+      ],
+      "sd": "always"
+    }
+  ],
+  "description": "A brief description of what this credential represents and its purpose.",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "Didr-ID Cred",
+      "rendering": {
+        "simple": {
+          "background_color": "#cc1212",
+          "text_color": "#ffffff"
+        },
+        "svg_templates": [
+          {
+            "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjUwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImNhcmRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxNDdBQiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMTJENkQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICA8ZmVEcm9wU2hhZG93IGR4PSIyIiBkeT0iNCIgc3RkRGV2aWF0aW9uPSIxIiBmbG9vZC1vcGFjaXR5PSIwLjMiLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICAKICA8IS0tIENhcmQgYmFja2dyb3VuZCAtLT4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgcng9IjE2IiByeT0iMTYiIGZpbGw9InVybCgjY2FyZEdyYWRpZW50KSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAKICA8IS0tIEhlYWRlciBzdHJpcGUgLS0+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI2MCIgcng9IjE2IiByeT0iMTYiIGZpbGw9IiM5OTAwMDAiLz4KICA8cmVjdCB4PSIwIiB5PSIzMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMCIgZmlsbD0iIzk5MDAwMCIvPgogIAogIDwhLS0gSW5zdGl0dXRpb24gbmFtZSBwbGFjZWhvbGRlciAtLT4KICA8dGV4dCBpZD0iaW5zdGl0dXRpb24iIHg9IjIwMCIgeT0iNDAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5EaWRyIElEPC90ZXh0PgogIAogIDwhLS0gU3R1ZGVudCBJRCBDYXJkIGxhYmVsIC0tPgogIDx0ZXh0IHg9IjIwMCIgeT0iODAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJub3JtYWwiIHRleHQtYW5jaG9yPSJtaWRkbGUiIG9wYWNpdHk9IjAuOCI+RElEUiBJREVOVElGSUNBVElPTiBDQVJEPC90ZXh0PgogIAogIDwhLS0gUGhvdG8gcGxhY2Vob2xkZXIgYXJlYSAtLT4KICA8cmVjdCB4PSIyNCIgeT0iMTAwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAwIiByeD0iNCIgcnk9IjQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjIiLz4KICA8dGV4dCB4PSI2NCIgeT0iMTU1IiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBvcGFjaXR5PSIwLjUiPlBIT1RPPC90ZXh0PgogIAogIDwhLS0gU3R1ZGVudCBuYW1lIHBsYWNlaG9sZGVycyAtLT4KICA8dGV4dCBpZD0iZ2l2ZW5fbmFtZSIgeD0iMTI0IiB5PSIxMjUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSJib2xkIj5Vc2VybmFtZTwvdGV4dD4KICAKICA8IS0tIFByb2dyYW0gcGxhY2Vob2xkZXIgLS0+CiAgPHRleHQgeD0iMTI0IiB5PSIxNzUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIG9wYWNpdHk9IjAuOCI+UGVybWlzc2lvbiBUaWVyOjwvdGV4dD4KICA8dGV4dCBpZD0icHJvZ3JhbSIgeD0iMjE1IiB5PSIxNzUiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiPnByb2dyYW08L3RleHQ+CiAgCiAgPCEtLSBTdHVkZW50IElEIHNlY3Rpb24gLS0+CiAgPHRleHQgeD0iMjQiIHk9IjIyNSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgb3BhY2l0eT0iMC43Ij5TdHVkZW50IElEOjwvdGV4dD4KICA8dGV4dCBpZD0ic3R1ZGVudF9pZCIgeD0iMjQiIHk9IjI0MCIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiPjAwMDAwMDAwMDwvdGV4dD4KICAKICA8IS0tIERlY29yYXRpdmUgZWxlbWVudCAtLT4KICA8Y2lyY2xlIGN4PSIzNzAiIGN5PSIyMjAiIHI9IjIwIiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgb3BhY2l0eT0iMC4zIi8+CiAgPGNpcmNsZSBjeD0iMzcwIiBjeT0iMjIwIiByPSIxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjMiLz4KPC9zdmc+Cg=="
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Didr-ID Cred",
+  "vct": "urn:cust:didr:1"
+}

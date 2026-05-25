@@ -1,0 +1,49 @@
+{
+  "format": "mso_mdoc",
+  "doctype": "com.example.didr.1",
+  "display": [
+    {
+      "locale": "en-US",
+      "name": "Didr-ID Cred",
+      "description": "A brief description of what this credential represents and its purpose.",
+      "background_color": "#cc1212",
+      "text_color": "#ffffff"
+    }
+  ],
+  "claims": {
+    "com.example.didr.1": {
+      "permission_tier": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Permission Tier"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "userid": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "User ID"
+          }
+        ],
+        "value_type": "tstr"
+      },
+      "username": {
+        "display": [
+          {
+            "locale": "en-US",
+            "name": "Claim Label"
+          },
+          {
+            "locale": "sv",
+            "name": "användarnamn"
+          }
+        ],
+        "mandatory": true,
+        "value_type": "tstr"
+      }
+    }
+  }
+}
